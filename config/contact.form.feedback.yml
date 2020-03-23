@@ -1,0 +1,14 @@
+uuid: 831e8e5c-51b6-4157-88c8-8400b2ed20f4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - alexander.sukhodolsky@pantheon.io
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
