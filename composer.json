@@ -21,7 +21,7 @@
         "drupal/core-composer-scaffold": "^8.8.1",
         "drupal/core-recommended": "^8.8",
         "drupal/ctools": "^3.2",
-        "drupal/devel": "^2.1",
+        "drupal/devel": "^3@beta",
         "drupal/search_api": "^1.15",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "~8.3",
