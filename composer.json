@@ -23,6 +23,7 @@
         "drupal/ctools": "^3.2",
         "drupal/devel": "^3@beta",
         "drupal/search_api_pantheon": "^1.0",
+        "drupal/webform": "^5.10",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "~8.3",
         "pantheon-systems/drupal-integrations": "^8",
