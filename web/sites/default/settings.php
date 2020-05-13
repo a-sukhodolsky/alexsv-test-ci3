@@ -61,6 +61,12 @@ if (!$request_ip_forbidden = in_array($request_remote_addr, $request_ip_blacklis
   }
 }
 
+if (isset($_GET['force_403'])) {
+//  header('Forbidden', TRUE, 403);
+//  exit;
+  $request_ip_forbidden = TRUE;
+}
+
 if ($request_ip_forbidden) {
   header('HTTP/1.0 403 Forbidden');
   exit;
